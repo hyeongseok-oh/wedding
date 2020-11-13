@@ -1,0 +1,110 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul { list-style-type: none;}
+  a { text-decoration: none;}
+  
+  body {
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.8em;
+    color: #444;
+  }
+  
+  h1 { margin: 20px 0; font-size: 28px;}
+  .img-responsive { width: 100%; }
+  
+  #main {
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    height: 100vh;  /* 디바이스 높이 100% */
+    background: #ccc;
+    /* 이미지 사이즈: 최소 750 x 1334 px */
+    background-image: url(../image/main.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* outline: 2px solid red; */
+
+  }
+  #main > .title_text {
+    background: #fff;
+    color: #a8bbbb;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 1em;
+  }
+  #main > .title_text > h1 {
+    margin-bottom: 1em;
+    margin-top: -600px;
+  }
+
+  .sub_text {
+    /* outline: 2px solid red; */
+    padding-bottom: 10px;
+    border-bottom: 1px solid  #a8bbbb;
+  }
+  
+  .name { 
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .name > span { font-size: small;}
+  
+  /* 인사말(초대...) */
+  #invitation {
+    /* margin: 50px 0; */
+    padding: 30px 0;
+    padding-left: 35px;
+    padding-right: 35px;
+    color:  #a8bbbb;
+  }
+  
+  #invitation .phone {
+    
+    border-top: 2px solid #b4dbdc;
+    border-bottom: 2px solid #b4dbdc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  #invitation .phone .info span {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .info {
+      color: #000;
+  }
+  .info a{
+    color: #444;
+    color: #557f80;
+  }
+  p, i { vertical-align: middle;}
+  
+  
+  /* 갤러리 */
+  #gallery {
+    /* outline: 1px solid red; */
+    padding: 20px 0;
+    background: #a8bbbb;
+    overflow: hidden;
+
+  }
+  #gallery > .gh1 {
+      margin: 0;
+  }
+  #gallery .small_img li { padding: 0;}
+  
+  
+  /* 오시는 길 */
+  #location {
+    padding: 20px 0; 
+  }
